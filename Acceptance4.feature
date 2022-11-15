@@ -4,9 +4,9 @@ Feature: Ver los productos en el carrito
   para confirmar si quiero pagar por ellos
 
 Scenario: 
-Dado que el cliente quiere ver los productos en su carrito,
-Cuando presione el <button_access_carrito_compras>
-Entonces podrá visualizar todos los <producto_en_carrito> que ha añadido a este.
+Given que el cliente quiere ver los productos en su carrito,
+When presione el <button_access_carrito_compras>
+Then podrá visualizar todos los <producto_en_carrito> que ha añadido a este.
 
 Example: Datos de entrada
 |button_access_carrito_compras|
