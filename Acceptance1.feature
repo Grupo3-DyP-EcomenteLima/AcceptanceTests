@@ -4,10 +4,10 @@ Feature: Crear cuenta de cliente
   para dar uso a la tienda ecológica.
 
 Scenario:
-Dado que el cliente está en la pantalla de registro y completó sus datos, 
-Cuando presione <button_no> al mensaje de “¿Estás afiliado a una tienda o marca ecológica?”, 
-Entonces la aplicación mostrará un <mensaje_registro_exitoso>
-Y el cliente podrá dar uso a la aplicación para realizar compras.
+Given que el cliente está en la pantalla de registro y completó sus datos, 
+When presione <button_no> al mensaje de “¿Estás afiliado a una tienda o marca ecológica?”, 
+Then la aplicación mostrará un <mensaje_registro_exitoso>
+And el cliente podrá dar uso a la aplicación para realizar compras.
 
 Examples: Datos de entrada
 |button_no|
