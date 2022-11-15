@@ -3,11 +3,11 @@ Feature: Pagar por los productos del carrito
     carrito para obtener el recibo y recoger mi compra.
 
 Scenario: Cliente paga por los productos de su carrito
-Dado que cliente se encuentra en la pantalla de carrito 
-Cuando ingrese el <payment_method>
-Y presione <button_buy>
-Entonces la aplicación generará <receipt> 
-Y el cliente podrá recoger sus productos.
+Given que cliente se encuentra en la pantalla de carrito 
+When ingrese el <payment_method>
+And presione <button_buy>
+Then la aplicación generará <receipt> 
+And el cliente podrá recoger sus productos.
 
 Examples: Datos de entrada
     | payment_method |
