@@ -3,9 +3,9 @@ Feature: Ver recibos
     para usarlos al recoger los objetos.
 
 Scenario: Cliente ve el recibo de su última compra
-Dado que cliente se encuentra en la pantalla de carrito
-Cuando presione <button_last_receipts>
-Entonces la aplicación mostrará los <list_last_receipts>
+Given que cliente se encuentra en la pantalla de carrito
+When presione <button_last_receipts>
+Then la aplicación mostrará los <list_last_receipts>
 
 Example: Datos de entrada
 | button_last_receipts |
