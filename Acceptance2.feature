@@ -5,10 +5,10 @@ Feature: Crear cuenta de vendedor
   y venderlos a través de la app.
 
 Scenario:
-Dado que vendedor está en la pantalla de registro y completó sus datos
-Cuando presione <button_yes> al mensaje de “¿Estás afiliado a una tienda o marca ecológica?”
-Entonces la aplicación mostrará un <campo_registro_marca> para que registre el nombre de su marca o tienda.
-Y el vendedor podrá publicar sus productos para venderlos en la tienda ecológica de Ecomente Lima.
+Given que vendedor está en la pantalla de registro y completó sus datos
+When presione <button_yes> al mensaje de “¿Estás afiliado a una tienda o marca ecológica?”
+Then la aplicación mostrará un <campo_registro_marca> para que registre el nombre de su marca o tienda.
+And el vendedor podrá publicar sus productos para venderlos en la tienda ecológica de Ecomente Lima.
 
 Examples: Datos de entrada
 |button_yes|
