@@ -4,10 +4,10 @@ Feature: Crear entrada de producto en el catalogo
   para que los clientes de la app los compren.
 
 Scenario:
-Dado que el vendedor haya seleccionado la opción “agregar producto” en el catálogo,
-Cuando éste ingrese los <datos_del_producto> 
-Y presione <button_publicar>, 
-Entonces el nuevo producto se <publicar_en_catalogo>.
+Given que el vendedor haya seleccionado la opción “agregar producto” en el catálogo,
+When este ingrese los <datos_del_producto> 
+And presione <button_publicar>, 
+Then el nuevo producto se <publicar_en_catalogo>.
 
 Examples: Datos de entrada
 |datos_del_producto|
