@@ -4,11 +4,11 @@ Feature: Modificar datos de un producto
     actualizados.
 
 Escenario: Vendedor modifica datos de un producto
-Dado que vendedor se encuentra en la pantalla de información de producto, 
-Cuando presione <button_modify_data>
-Y modifique los <data_product>
-Y presione <button_save_changes>
-Entonces aparecerá un <message_updated_data>
+Given que vendedor se encuentra en la pantalla de información de producto, 
+When presione <button_modify_data>
+And modifique los <data_product>
+And presione <button_save_changes>
+Then aparecerá un <message_updated_data>
 
 Examples: Datos de entrada
     | button_modify_data |
