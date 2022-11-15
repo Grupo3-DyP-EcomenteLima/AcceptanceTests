@@ -4,11 +4,11 @@ Feature: Administrar cuenta
     o los medios de pago según requiera.
 
 Escenario: Usuario edita sus datos de perfil
-Dado que usuario se encuentra en la pantalla de editar perfil
-Cuando ingrese los <update_data>
-Y presione el <button_save_changes>
-Entonces aparecerá un <message_updated_data>
-Y los datos nuevos aparecerán en el perfil del usuario.
+Given que usuario se encuentra en la pantalla de editar perfil
+When ingrese los <update_data>
+And presione el <button_save_changes>
+Then aparecerá un <message_updated_data>
+And los datos nuevos aparecerán en el perfil del usuario.
 
 Examples: Datos de entrada
     | update_data|
