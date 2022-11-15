@@ -4,10 +4,10 @@ Feature: Añadir productos al carrito
   para ir guardando lo que voy a comprar.
 
 Scenario:
-Dado que el cliente quiere añadir un producto a su carrito,
-Cuando presione la <image_product> 
-Y muestre su descripción
-Entonces podrá añadir el producto con el <button_add_to_cart> que aparecera.
+Given que el cliente quiere añadir un producto a su carrito,
+When presione la <image_product> 
+And muestre su descripción
+Then podrá añadir el producto con el <button_add_to_cart> que aparecera.
 
 Example: Datos de entrada
 |image_product|
