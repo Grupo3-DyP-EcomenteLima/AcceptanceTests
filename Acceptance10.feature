@@ -4,9 +4,9 @@ Feature: Ver consejo ecológico
     de este.
 
 Scenario: Cliente quiere ver consejo ecológico
-Dado que cliente se encuentra en la pantalla de recibo
-Cuando cuando presione <button_see_advice>
-Entonces se mostrará un <eco_advice>.
+Given que cliente se encuentra en la pantalla de recibo
+When cuando presione <button_see_advice>
+Then se mostrará un <eco_advice>.
 
 Examples: Datos de entrada
     | button_see_advice |
